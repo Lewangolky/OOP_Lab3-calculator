@@ -1,0 +1,5 @@
+# Shell script must keep LF endings to run on Linux/macOS, batch files CRLF.
+* text=auto
+gradlew text eol=lf
+*.bat text eol=crlf
+*.jar binary
