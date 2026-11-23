@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- logback-android configuration for DEBUG builds: overrides src/main/assets/logback.xml.
+     Filter Logcat with:  adb logcat -s SciCalc -->
+<configuration>
+    <property name="LOG_DIR" value="${DATA_DIR}/logs" />
+
+    <appender name="LOGCAT" class="ch.qos.logback.classic.android.LogcatAppender">
+        <tagEncoder>
+            <pattern>SciCalc</pattern>
+        </tagEncoder>
+        <encoder>
+            <pattern>[%thread] %logger{0}: %msg</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/calculator.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_DIR}/calculator.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>1MB</maxFileSize>
+            <maxHistory>3</maxHistory>
+            <totalSizeCap>5MB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.oop.calculator" level="DEBUG" />
+
+    <root level="INFO">
+        <appender-ref ref="LOGCAT" />
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>

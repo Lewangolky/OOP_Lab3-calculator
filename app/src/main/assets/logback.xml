@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- logback-android configuration for RELEASE builds.
+     Debug builds use src/debug/assets/logback.xml instead (more verbose). -->
+<configuration>
+    <property name="LOG_DIR" value="${DATA_DIR}/logs" />
+
+    <!-- Logcat: only problems, so release builds do not spam the system log. -->
+    <appender name="LOGCAT" class="ch.qos.logback.classic.android.LogcatAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>WARN</level>
+        </filter>
+        <tagEncoder>
+            <pattern>SciCalc</pattern>
+        </tagEncoder>
+        <encoder>
+            <pattern>[%logger{0}] %msg</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Rolling file in the app's private storage: one file per day, at most 1 MB each. -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/calculator.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_DIR}/calculator.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>1MB</maxFileSize>
+            <maxHistory>7</maxHistory>
+            <totalSizeCap>5MB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.oop.calculator" level="INFO" />
+
+    <root level="WARN">
+        <appender-ref ref="LOGCAT" />
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>
