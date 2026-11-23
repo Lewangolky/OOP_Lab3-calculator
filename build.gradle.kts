@@ -1,0 +1,4 @@
+// Top-level build file: plugins are declared here and applied in the modules.
+plugins {
+    alias(libs.plugins.android.application) apply false
+}
