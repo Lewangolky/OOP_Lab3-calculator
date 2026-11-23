@@ -57,3 +57,16 @@ SLF4J API + [logback-android](https://github.com/tony19/logback-android), кон
 ```
 
 Або відкрити теку в Android Studio й запустити конфігурацію `app`.
+
+### Запуск в емуляторі (без Android Studio)
+
+Потрібні пакети SDK `emulator` і `system-images;android-36;google_apis;x86_64`
+та апаратна віртуалізація (Windows Hypervisor Platform). Скрипт сам створить
+віртуальний Pixel 7 з Android 16 (якщо його ще немає), запустить емулятор,
+дочекається завантаження, збере й відкриє застосунок:
+
+```powershell
+.\run-emulator.ps1
+```
+
+Параметри: `-AvdName`, `-AvdHome` (де зберігати віртуальний пристрій, ~6 ГБ), `-SystemImage`, `-Device`.
