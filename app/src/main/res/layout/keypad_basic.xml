@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:padding="@dimen/keypad_padding"
+    android:rowCount="5"
+    tools:ignore="HardcodedText">
+    <!-- Digits are the same in every supported language, so they are not resources. -->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_clear"
+        style="@style/Widget.SciCalc.Key.Clear"
+        android:contentDescription="@string/cd_clear"
+        android:text="@string/key_clear" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_backspace"
+        style="@style/Widget.SciCalc.Key.Clear"
+        android:contentDescription="@string/cd_backspace"
+        android:text="@string/key_backspace" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_percent"
+        style="@style/Widget.SciCalc.Key.Operator"
+        android:contentDescription="@string/cd_percent"
+        android:text="@string/key_percent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_divide"
+        style="@style/Widget.SciCalc.Key.Operator"
+        android:contentDescription="@string/cd_divide"
+        android:text="@string/key_divide" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_digit_7"
+        style="@style/Widget.SciCalc.Key"
+        android:text="7" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_digit_8"
+        style="@style/Widget.SciCalc.Key"
+        android:text="8" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_digit_9"
+        style="@style/Widget.SciCalc.Key"
+        android:text="9" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_multiply"
+        style="@style/Widget.SciCalc.Key.Operator"
+        android:contentDescription="@string/cd_multiply"
+        android:text="@string/key_multiply" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_digit_4"
+        style="@style/Widget.SciCalc.Key"
+        android:text="4" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_digit_5"
+        style="@style/Widget.SciCalc.Key"
+        android:text="5" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_digit_6"
+        style="@style/Widget.SciCalc.Key"
+        android:text="6" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_minus"
+        style="@style/Widget.SciCalc.Key.Operator"
+        android:contentDescription="@string/cd_minus"
+        android:text="@string/key_minus" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_digit_1"
+        style="@style/Widget.SciCalc.Key"
+        android:text="1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_digit_2"
+        style="@style/Widget.SciCalc.Key"
+        android:text="2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_digit_3"
+        style="@style/Widget.SciCalc.Key"
+        android:text="3" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_plus"
+        style="@style/Widget.SciCalc.Key.Operator"
+        android:contentDescription="@string/cd_plus"
+        android:text="@string/key_plus" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_answer"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_answer"
+        android:text="@string/key_answer" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_digit_0"
+        style="@style/Widget.SciCalc.Key"
+        android:text="0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_decimal"
+        style="@style/Widget.SciCalc.Key"
+        android:contentDescription="@string/cd_decimal"
+        tools:text="." />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_equals"
+        style="@style/Widget.SciCalc.Key.Equals"
+        android:contentDescription="@string/cd_equals"
+        android:text="@string/key_equals" />
+
+</GridLayout>

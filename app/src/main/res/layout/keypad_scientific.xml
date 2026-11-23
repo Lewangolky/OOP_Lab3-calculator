@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Scientific keys. Labels and descriptions of the keys with an inverse
+     function are switched by MainActivity when "2nd" is active. -->
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="5"
+    android:padding="@dimen/keypad_padding"
+    android:rowCount="3">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_inverse"
+        style="@style/Widget.SciCalc.Key.Toggle"
+        android:checkable="true"
+        android:contentDescription="@string/cd_inverse"
+        android:text="@string/key_inverse" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_angle"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_angle_unit"
+        android:text="@string/angle_degrees" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_sin"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_sin"
+        android:text="@string/key_sin" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_cos"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_cos"
+        android:text="@string/key_cos" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_tan"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_tan"
+        android:text="@string/key_tan" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_power"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_power"
+        android:text="@string/key_power" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_ln"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_ln"
+        android:text="@string/key_ln" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_log"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_log"
+        android:text="@string/key_log" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_sqrt"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_sqrt"
+        android:text="@string/key_sqrt" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_square"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_square"
+        android:text="@string/key_square" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_paren_open"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_paren_open"
+        android:text="@string/key_paren_open" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_paren_close"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_paren_close"
+        android:text="@string/key_paren_close" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_factorial"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_factorial"
+        android:text="@string/key_factorial" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_pi"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_pi"
+        android:text="@string/key_pi" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_e"
+        style="@style/Widget.SciCalc.Key.Function"
+        android:contentDescription="@string/cd_e"
+        android:text="@string/key_e" />
+
+</GridLayout>

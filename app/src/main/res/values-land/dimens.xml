@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="display_padding">12dp</dimen>
+    <dimen name="display_expression_height">48dp</dimen>
+    <dimen name="display_expression_max_text">40sp</dimen>
+    <dimen name="display_secondary_text">16sp</dimen>
+
+    <dimen name="keypad_padding">4dp</dimen>
+    <dimen name="key_margin">2dp</dimen>
+    <dimen name="key_corner">12dp</dimen>
+    <dimen name="key_text_digit">20sp</dimen>
+    <dimen name="key_text_operator">22sp</dimen>
+    <dimen name="key_text_function">15sp</dimen>
+</resources>

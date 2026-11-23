@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mathematical notation on the keys: the same in every language, so not translated.
+     Translated spoken names of the keys are the cd_* strings in strings.xml. -->
+<resources>
+    <string name="key_inverse" translatable="false">2nd</string>
+    <string name="key_sin" translatable="false">sin</string>
+    <string name="key_cos" translatable="false">cos</string>
+    <string name="key_tan" translatable="false">tan</string>
+    <string name="key_asin" translatable="false">sin⁻¹</string>
+    <string name="key_acos" translatable="false">cos⁻¹</string>
+    <string name="key_atan" translatable="false">tan⁻¹</string>
+    <string name="key_power" translatable="false">xʸ</string>
+    <string name="key_ln" translatable="false">ln</string>
+    <string name="key_exp" translatable="false">eˣ</string>
+    <string name="key_log" translatable="false">log</string>
+    <string name="key_ten_power" translatable="false">10ˣ</string>
+    <string name="key_sqrt" translatable="false">√</string>
+    <string name="key_cbrt" translatable="false">∛</string>
+    <string name="key_square" translatable="false">x²</string>
+    <string name="key_cube" translatable="false">x³</string>
+    <string name="key_paren_open" translatable="false">(</string>
+    <string name="key_paren_close" translatable="false">)</string>
+    <string name="key_factorial" translatable="false">x!</string>
+    <string name="key_pi" translatable="false">π</string>
+    <string name="key_e" translatable="false">e</string>
+    <string name="key_clear" translatable="false">AC</string>
+    <string name="key_backspace" translatable="false">⌫</string>
+    <string name="key_percent" translatable="false">%</string>
+    <string name="key_divide" translatable="false">÷</string>
+    <string name="key_multiply" translatable="false">×</string>
+    <string name="key_minus" translatable="false">−</string>
+    <string name="key_plus" translatable="false">+</string>
+    <string name="key_equals" translatable="false">=</string>
+    <string name="key_answer" translatable="false">Ans</string>
+
+    <!-- Languages offered in the in-app picker. Adding a language = a new
+         values-<tag>/strings.xml + its tag here. -->
+    <string-array name="supported_language_tags" translatable="false">
+        <item>en</item>
+        <item>uk</item>
+        <item>de</item>
+    </string-array>
+</resources>

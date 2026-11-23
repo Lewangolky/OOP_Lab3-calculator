@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Calculator glyph inside the 66dp safe zone of a 108dp adaptive icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="@color/launcher_foreground"
+        android:pathData="M40,30h28a4,4 0,0 1,4 4v40a4,4 0,0 1,-4 4h-28a4,4 0,0 1,-4 -4v-40a4,4 0,0 1,4 -4z" />
+    <path
+        android:fillColor="@color/launcher_background"
+        android:pathData="M41,35h26v11h-26z" />
+    <path
+        android:fillColor="@color/launcher_background"
+        android:pathData="M42,51h6v6h-6zM51,51h6v6h-6zM60,51h6v6h-6zM42,60h6v6h-6zM51,60h6v6h-6zM60,60h6v6h-6zM42,69h6v6h-6zM51,69h6v6h-6z" />
+    <path
+        android:fillColor="@color/launcher_accent"
+        android:pathData="M60,69h6v6h-6z" />
+</vector>
