@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Науковий калькулятор</string>
+
+    <!-- Меню та діалоги -->
+    <string name="menu_history">Історія</string>
+    <string name="menu_language">Мова</string>
+    <string name="menu_about">Про застосунок</string>
+    <string name="history_title">Історія</string>
+    <string name="history_empty">Обчислень ще немає</string>
+    <string name="history_clear">Очистити історію</string>
+    <string name="history_item">%1$s = %2$s</string>
+    <plurals name="history_count">
+        <item quantity="one">%d обчислення</item>
+        <item quantity="few">%d обчислення</item>
+        <item quantity="many">%d обчислень</item>
+        <item quantity="other">%d обчислення</item>
+    </plurals>
+    <string name="language_title">Мова застосунку</string>
+    <string name="language_system">Як у системі</string>
+    <string name="action_close">Закрити</string>
+    <string name="action_cancel">Скасувати</string>
+    <string name="about_title">Про застосунок</string>
+    <string name="about_message">Науковий калькулятор, версія %1$s.\n\nПідтримує тригонометричні функції в градусах і радіанах, логарифми, корені, степені, факторіали та відсотки. Натисніть 2nd для обернених функцій і Ans, щоб використати останній результат.</string>
+
+    <!-- Дисплей -->
+    <string name="evaluated_expression">%1$s =</string>
+    <string name="preview_result">= %1$s</string>
+    <string name="angle_degrees">ГРАД</string>
+    <string name="angle_radians">РАД</string>
+    <string name="cd_angle_indicator">Одиниця кута: %1$s</string>
+
+    <!-- Помилки обчислення -->
+    <string name="error_syntax">Некоректний вираз</string>
+    <string name="error_division_by_zero">Ділити на нуль не можна</string>
+    <string name="error_domain">Поза областю визначення функції</string>
+    <string name="error_factorial">Факторіал — лише для цілих чисел ≥ 0</string>
+    <string name="error_overflow">Занадто велике число</string>
+
+    <!-- Назви клавіш для TalkBack -->
+    <string name="cd_inverse">Обернені функції</string>
+    <string name="cd_angle_unit">Перемкнути градуси й радіани</string>
+    <string name="cd_sin">Синус</string>
+    <string name="cd_cos">Косинус</string>
+    <string name="cd_tan">Тангенс</string>
+    <string name="cd_asin">Арксинус</string>
+    <string name="cd_acos">Арккосинус</string>
+    <string name="cd_atan">Арктангенс</string>
+    <string name="cd_power">Степінь</string>
+    <string name="cd_ln">Натуральний логарифм</string>
+    <string name="cd_exp">e у степені</string>
+    <string name="cd_log">Десятковий логарифм</string>
+    <string name="cd_ten_power">10 у степені</string>
+    <string name="cd_sqrt">Квадратний корінь</string>
+    <string name="cd_cbrt">Кубічний корінь</string>
+    <string name="cd_square">Квадрат</string>
+    <string name="cd_cube">Куб</string>
+    <string name="cd_paren_open">Ліва дужка</string>
+    <string name="cd_paren_close">Права дужка</string>
+    <string name="cd_factorial">Факторіал</string>
+    <string name="cd_pi">Число пі</string>
+    <string name="cd_e">Число Ейлера</string>
+    <string name="cd_clear">Очистити все</string>
+    <string name="cd_backspace">Видалити</string>
+    <string name="cd_percent">Відсоток</string>
+    <string name="cd_divide">Поділити</string>
+    <string name="cd_multiply">Помножити</string>
+    <string name="cd_minus">Мінус</string>
+    <string name="cd_plus">Плюс</string>
+    <string name="cd_answer">Попередня відповідь</string>
+    <string name="cd_decimal">Десятковий роздільник</string>
+    <string name="cd_equals">Дорівнює</string>
+</resources>

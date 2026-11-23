@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wissenschaftlicher Rechner</string>
+
+    <!-- Menü und Dialoge -->
+    <string name="menu_history">Verlauf</string>
+    <string name="menu_language">Sprache</string>
+    <string name="menu_about">Info</string>
+    <string name="history_title">Verlauf</string>
+    <string name="history_empty">Noch keine Berechnungen</string>
+    <string name="history_clear">Verlauf löschen</string>
+    <string name="history_item">%1$s = %2$s</string>
+    <plurals name="history_count">
+        <item quantity="one">%d Berechnung</item>
+        <item quantity="other">%d Berechnungen</item>
+    </plurals>
+    <string name="language_title">App-Sprache</string>
+    <string name="language_system">Systemstandard</string>
+    <string name="action_close">Schließen</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="about_title">Info</string>
+    <string name="about_message">Wissenschaftlicher Rechner, Version %1$s.\n\nUnterstützt trigonometrische Funktionen in Grad und Bogenmaß, Logarithmen, Wurzeln, Potenzen, Fakultäten und Prozente. Mit 2nd erreichen Sie die Umkehrfunktionen, mit Ans das letzte Ergebnis.</string>
+
+    <!-- Anzeige -->
+    <string name="evaluated_expression">%1$s =</string>
+    <string name="preview_result">= %1$s</string>
+    <string name="angle_degrees">DEG</string>
+    <string name="angle_radians">RAD</string>
+    <string name="cd_angle_indicator">Winkeleinheit: %1$s</string>
+
+    <!-- Rechenfehler -->
+    <string name="error_syntax">Ungültiger Ausdruck</string>
+    <string name="error_division_by_zero">Division durch null nicht möglich</string>
+    <string name="error_domain">Außerhalb des Definitionsbereichs</string>
+    <string name="error_factorial">Fakultät nur für ganze Zahlen ≥ 0</string>
+    <string name="error_overflow">Zahl ist zu groß</string>
+
+    <!-- Gesprochene Tastennamen (TalkBack) -->
+    <string name="cd_inverse">Umkehrfunktionen</string>
+    <string name="cd_angle_unit">Zwischen Grad und Bogenmaß wechseln</string>
+    <string name="cd_sin">Sinus</string>
+    <string name="cd_cos">Kosinus</string>
+    <string name="cd_tan">Tangens</string>
+    <string name="cd_asin">Arkussinus</string>
+    <string name="cd_acos">Arkuskosinus</string>
+    <string name="cd_atan">Arkustangens</string>
+    <string name="cd_power">Potenz</string>
+    <string name="cd_ln">Natürlicher Logarithmus</string>
+    <string name="cd_exp">e hoch</string>
+    <string name="cd_log">Dekadischer Logarithmus</string>
+    <string name="cd_ten_power">Zehn hoch</string>
+    <string name="cd_sqrt">Quadratwurzel</string>
+    <string name="cd_cbrt">Kubikwurzel</string>
+    <string name="cd_square">Quadrat</string>
+    <string name="cd_cube">Hoch drei</string>
+    <string name="cd_paren_open">Klammer auf</string>
+    <string name="cd_paren_close">Klammer zu</string>
+    <string name="cd_factorial">Fakultät</string>
+    <string name="cd_pi">Pi</string>
+    <string name="cd_e">Eulersche Zahl</string>
+    <string name="cd_clear">Alles löschen</string>
+    <string name="cd_backspace">Zeichen löschen</string>
+    <string name="cd_percent">Prozent</string>
+    <string name="cd_divide">Geteilt durch</string>
+    <string name="cd_multiply">Mal</string>
+    <string name="cd_minus">Minus</string>
+    <string name="cd_plus">Plus</string>
+    <string name="cd_answer">Letztes Ergebnis</string>
+    <string name="cd_decimal">Dezimaltrennzeichen</string>
+    <string name="cd_equals">Gleich</string>
+</resources>
